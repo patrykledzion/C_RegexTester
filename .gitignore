@@ -1,0 +1,102 @@
+## Visual Studio build files
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+## Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+## Compiled object files
+*.obj
+*.o
+*.lo
+*.slo
+
+## Precompiled Headers
+*.pch
+
+## Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+## Executables
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.app
+
+## Debug files
+*.pdb
+*.idb
+*.ipdb
+*.pgc
+*.pgd
+
+## Other intermediate files
+*.ilk
+*.iobj
+*.ipch
+*.tlog
+
+## Profiling
+*.psess
+*.vsp
+*.vspx
+*.vspscc
+
+## Cache
+*.cache
+*.ncb
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+
+## Visual Studio Code workspace
+.vscode/
+
+## Visual Studio folder
+.vs/
+
+## NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+artifacts/
+
+## Ignore build results
+*.log
+*.tmp
+*.tmp_proj
+*.bak
+*.backup
+*.swp
+*.swn
+*.swo
+*.swn
+
+## Ignore generated files
+*.manifest
+*.res
+*.idb
+*.tli
+*.tlh
+*.dep
+
+## Crash dumps
+*.dmp
