@@ -16,6 +16,8 @@ x86/
 *.sln.docstates
 *.VC.db
 *.VC.opendb
+*.sln
+*.vcxproj*
 
 ## Compiled object files
 *.obj
