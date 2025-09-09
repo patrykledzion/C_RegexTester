@@ -14,6 +14,25 @@ void regex_delete(regex* it)
 	it->elements_count = 0;
 }
 
+regex* regex_new()
+{
+	regex* out = malloc(sizeof(regex));
+	if (out == NULL)return NULL;
+
+	out->loops = NULL;
+	out->elements_count = 0;
+
+	return out;
+}
+
+void regex_free(regex* it)
+{
+	if (it == NULL)return;
+	if (it->loops != NULL)free(it->loops);
+	it->loops = NULL;
+	it->elements_count = 0;
+}
+
 int regex_add_loop(regex* it, regex_loop element)
 {
 	/*

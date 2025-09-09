@@ -10,4 +10,7 @@ typedef struct regex_t {
 void regex_create(regex* out);
 void regex_delete(regex* it);
 
+regex* regex_new();
+void regex_free(regex* it);
+
 int regex_add_loop(regex* it, regex_loop element);
