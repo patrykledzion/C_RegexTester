@@ -27,7 +27,7 @@ int regex_add_loop(regex* it, regex_loop element)
 		if (it->loops == NULL)return 0;
 	}
 	else {
-		regex_loop* new_loops = realloc(it->loops, it->elements_count + 1);
+		regex_loop* new_loops = realloc(it->loops, sizeof(regex_loop) * (it->elements_count + 1));
 		if (new_loops == NULL)return 0;
 		it->loops = new_loops;
 	}

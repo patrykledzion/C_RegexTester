@@ -1,7 +1,6 @@
 #pragma once
 #include <stdlib.h>
-
-typedef void* regex_loop;
+#include "regex_loop.h"
 
 typedef struct regex_t {
 	regex_loop* loops;
